@@ -1,0 +1,1 @@
+window.runningAds = true;
