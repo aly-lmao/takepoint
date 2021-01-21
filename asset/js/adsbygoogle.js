@@ -1,1 +1,1 @@
-window.runningAds = true;
+window.runningAds = false;
