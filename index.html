@@ -270,9 +270,9 @@
 				clientScript.src = path;
 				clientScript.async = true;
 				clientScript.onerror = function(e){
-					console.log(e);
-					console.error("Script error, reloading page...");
-					window.location.reload(true);
+					//console.log(e);
+					//console.error("Script error, reloading page...");
+					//window.location.reload(true);
 				};
 				document.body.appendChild(clientScript);
 			})(window, document);
