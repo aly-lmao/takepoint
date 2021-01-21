@@ -22,7 +22,7 @@
         (function() {
             var origOpen = XMLHttpRequest.prototype.open;
             XMLHttpRequest.prototype.open = function(...args) {
-                if(args[1].includes('://zombsroyale.io/api/')){
+                if(args[1].includes('://takepoint.io/')){
                     args[1] = 'https://onebigorange-tmm.tbt.mx/normal/'+args[1];
                 }
                 if(args[1][0] === '/'){
